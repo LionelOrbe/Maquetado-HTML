@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800');
+
+:root{
+    --a: #748d4b;
+    --b: #00acae;
+    --c: #c5e6e3;
+    --d: #9c6ba1;
+    --e: #8f6499;
+    --f: #facb12;
+    --g: #f7adc3; 
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.expo{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.fecha{
+    background-color: var(--b);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.fecha span:nth-child(1) {
+    font-family: 'Ubuntu';
+    font-size: 7.5vw;
+    margin-top: 1.5vw;
+    font-weight: 400;
+    letter-spacing: 0.5vw;
+}
+.fecha span:nth-child(2){
+    font-size: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    letter-spacing: 0.1vw;
+    font-weight: 400;
+}
+.midcontainer{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--c);
+}
+.midcontainer span {
+    font-size: 6.5vw;
+    letter-spacing: 0.2vw;
+    font-weight: 800;
+}
+.midcontainer span:nth-child(1){
+    color: var(--d);
+}
+.midcontainer span:nth-child(2){
+    color: var(--b);
+}
+.imgcontainer{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.info {
+    padding: 10px;
+    background-color: var(--d);
+    margin-right: 5%;
+    width: 50vw;
+    height: fit-content;
+    text-align: center;
+    border-radius: 2.5vw;
+}
+.bus{
+    margin-left: 5%;
+    width: 28%;
+}
+.hotel{
+    margin-left: 7%;
+    width: 18%;
+}
+.info span {
+    display: inline-block;
+    font-size: 4.5vw;
+}
+.info span:nth-child(1){
+    color: var(--f);
+}
+.info span:nth-child(2){
+    color: white;
+}
+footer div:nth-child(1){
+    background-color: var(--b);
+    color: var(--f);
+    padding: 2vw;
+    justify-items: center;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+footer div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    background-color: var(--d);
+    color:white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.5vw;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+}
+footer div:nth-child(3){
+    background-color: var(--g);
+    height: 5vw;
+    max-height: 10vh;
+}
+.expo{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 5vw;
+}
